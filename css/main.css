@@ -1,5 +1,132 @@
 body{
-	background-image: url("escheresque_ste.png")
+	background-image: url("mg.jpg")
 
 }
+
+/*contact */
+/*end contact*/
+
+/*scrolling*/
+body {
+  	background: url("http://i.imgur.com/JGv4Q.png") repeat fixed center 0 rgba(10,10,10,1);
+}
+div {
+  max-width: 600px;
+  background: rgba(10,10,10,0.5);
+  color: #ccc;
+  margin: 0 auto;
+  padding: 20px;
+}
+@media (max-width:320px) {
+
+}
+#container{
+	width:960px;
+	margin:0px auto;
+}
+
+#left-column{
+	width:700px;
+	float:left;
+	background:blue;
+}
+
+#right-column{
+	width:260px;
+	float:left;
+	background:orange;
+}
+
+@media screen.and (max-width:959px){
+	#container{
+		width:100%;
+	}
+	#left-column{
+		width:70%;
+	}
+	#right-column{
+		width:30%;
+	}
+	img{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:640px) {
+	#left-column{
+		width:100%;
+	}
+	#right-column{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:320px) {
+	#container{
+		width:320px;
+	}
+}
+
+/*navbar*/
+#bg{
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+background: #38a8d1;
+background: -moz-linear-gradient(top,  #38a8d1 0%, #34bc9a 36%, #34bc9a 57%, #8645f7 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#38a8d1), color-stop(36%,#34bc9a), color-stop(57%,#34bc9a), color-stop(100%,#8645f7));
+background: -webkit-linear-gradient(top,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+background: -o-linear-gradient(top,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+background: -ms-linear-gradient(top,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+background: linear-gradient(to bottom,  #38a8d1 0%,#34bc9a 36%,#34bc9a 57%,#8645f7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#38a8d1', endColorstr='#8645f7',GradientType=0 );
+}
+
+section{
+  position:relative;
+  width:640px;
+  margin:50px auto;
+}
+nav{
+  width:100%;
+}
+nav ul li{
+  display:inline-block;
+  list-style:none;
+  width:160px;
+  text-align:center;
+  font-family:Helvetica, sans-serif;
+  border: 1px dashed rgba(255,255,255, 0);
+  color:#fff;
+  padding:10px 0 10px 0;
+  margin:-1px -5px -1px -1px;
+  cursor:pointer;
+}
+nav ul li:hover{
+  /*border:1px dashed #fff;*/
+  background:rgba(255,255,255,.1);
+}
+nav ul{
+  border: 1px solid #fff;
+  position:absolute;
+  width:100%;
+  padding:0;
+  z-index:100;
+}
+nav div{
+  position:absolute;
+  left:0;
+  top:16px;
+  background: #fff;
+  width:162px;
+  height:40px;
+  z-index:99;
+}
+.active{
+  color:rgba(55, 186, 177, 1);
+}
+
+/*navbar*/
 
